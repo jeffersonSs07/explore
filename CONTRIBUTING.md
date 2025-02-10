@@ -1,120 +1,251 @@
-# Contributing
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domine o Instagram e Venda Como Nunca Antes!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-align: center;
+            color: #d9534f;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-top: 20px;
+            color: #28a745;
+        }
+        p {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: #fff;
+            background-color: #d9534f;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-align: center;
+            width: 100%;
+            box-sizing: border-box;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #c9302c;
+        }
+        .offer {
+            font-size: 1.3em;
+            color: #d9534f;
+            font-weight: bold;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .testimonial {
+            background: #f9f9f9;
+            padding: 15px;
+            border-left: 5px solid #28a745;
+            margin: 20px 0;
+        }
+        .testimonial p {
+            margin: 0;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .countdown {
+            text-align: center;
+            font-size: 1.5em;
+            margin: 20px 0;
+            color: #d9534f;
+            font-weight: bold;
+        }
+        .faq {
+            margin: 20px 0;
+        }
+        .faq h3 {
+            margin-bottom: 10px;
+            color: #28a745;
+        }
+        .faq p {
+            margin-bottom: 20px;
+        }
+        .icon {
+            font-size: 1.2em;
+            margin-right: 10px;
+            color: #28a745;
+        }
+        .highlight {
+            background-color: #fff3cd;
+            padding: 10px;
+            border-left: 5px solid #ffc107;
+            margin: 20px 0;
+        }
+        .bonus {
+            background-color: #d4edda;
+            padding: 15px;
+            border-left: 5px solid #28a745;
+            margin: 20px 0;
+        }
+        .bonus h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Headline Principal -->
+        <h1>Domine o Instagram e Transforme Seguidores em Clientes!</h1>
 
-Hi there! We're excited you have ideas to improve topics and collections. You're helping the community discover valuable information.
+        <!-- Subheadline -->
+        <p style="text-align: center; font-size: 1.2em; color: #555;">
+            Descubra o <strong>Método Comprovado</strong> para Alcançar Milhares de Pessoas, Gerar Engajamento Real e Vender Muito Mais no Instagram – Mesmo que Você Não Tenha Experiência!
+        </p>
 
-This project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
+        <!-- Contador de Tempo -->
+        <div class="countdown" id="countdown">
+            ⏳ Oferta termina em: <span id="timer">10:00</span>
+        </div>
 
-There are a few ways you can contribute:
+        <!-- Vídeo de Vendas -->
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/SEU_VIDEO_AQUI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
 
-- Improving an existing topic or collection
-- Curating a new topic or collection
+        <!-- Seção 1: Introdução e Problema -->
+        <h2>Você Sabia que 90% dos Negócios no Instagram Estão Deixando Dinheiro na Mesa?</h2>
+        <p>
+            Se você está lutando para crescer no Instagram ou não sabe como transformar seguidores em clientes, você não está sozinho. A maioria das pessoas comete esses erros:
+        </p>
+        <ul>
+            <li><span class="icon">❌</span> Postar conteúdo sem estratégia.</li>
+            <li><span class="icon">❌</span> Não saber como engajar o público.</li>
+            <li><span class="icon">❌</span> Perder oportunidades de vender por falta de um funil eficiente.</li>
+        </ul>
+        <p>
+            Mas aqui está a boa notícia: <strong>você pode mudar isso hoje mesmo!</strong>
+        </p>
 
-As you write content, check out the [Style Guide](./docs/styleguide.md) to learn what each field means, and how it should be formatted. Following the style guide will increase the chances of your contribution being accepted.
+        <!-- Seção 2: Benefícios e Solução -->
+        <h2>O que Você Vai Aprender no Ebook:</h2>
+        <p>
+            <span class="icon">🚀</span> <strong>Como criar um perfil irresistível</strong> que atrai seguidores qualificados.<br>
+            <span class="icon">🚀</span> <strong>Estratégias de conteúdo que geram engajamento real</strong> – sem truques ou bots.<br>
+            <span class="icon">🚀</span> <strong>Como montar um funil de vendas eficiente</strong> para converter seguidores em clientes.<br>
+            <span class="icon">🚀</span> <strong>Ferramentas práticas</strong> para automatizar e escalar seu Instagram.<br>
+            <span class="icon">🚀</span> <strong>Dicas de monetização</strong> para lucrar mesmo com poucos seguidores.<br>
+        </p>
+        <div class="highlight">
+            <p>
+                <strong>Imagine:</strong> Seu Instagram cheio de seguidores engajados, sua caixa de entrada lotada de mensagens de clientes interessados e suas vendas disparando. Tudo isso é possível com as estratégias deste ebook!
+            </p>
+        </div>
 
-Notes:
+        <!-- Seção 3: Oferta Especial -->
+        <h2>Oferta Imperdível por Tempo Limitado!</h2>
+        <p class="offer">De <s>R$ 97</s> por apenas <strong>R$ 47</strong>!</p>
+        <p>
+            Esta é a sua chance de dominar o Instagram e transformá-lo em uma máquina de vendas. Mas atenção: essa oferta é válida apenas por <strong>10 minutos</strong>!
+        </p>
+        <a href="#comprar" class="cta-button">Quero Alcançar o Sucesso no Instagram Agora!</a>
 
-- Updates won't immediately appear once we've merged your PR. We pull in these changes regularly to GitHub.
-- Please limit your pull request to the creation/updating of one topic or collection at a time.
+        <!-- Seção 4: Bônus Exclusivo -->
+        <div class="bonus">
+            <h3>Bônus Exclusivo para os Primeiros Compradores!</h3>
+            <p>
+                Ao adquirir o ebook hoje, você recebe <strong>gratuitamente</strong> um guia passo a passo para criar anúncios no Instagram que convertem como loucos!
+            </p>
+        </div>
 
-## Improving an existing topic or collection
+        <!-- Seção 5: Depoimentos -->
+        <h2>O que Estão Dizendo Quem Já Usou:</h2>
+        <div class="testimonial">
+            <p>"Depois de aplicar as estratégias do ebook, meu Instagram cresceu 300% em apenas um mês! Recomendo demais!" - <strong>Ana S.</strong></p>
+        </div>
+        <div class="testimonial">
+            <p>"Finalmente entendi como usar o Instagram para vender. O funil de vendas mudou meu negócio!" - <strong>Carlos M.</strong></p>
+        </div>
 
-If a topic or collection already exists, it will be listed in its respective directory:
+        <!-- Seção 6: Garantia -->
+        <h2>Garantia de 7 Dias</h2>
+        <p>
+            Se em 7 dias você não estiver satisfeito com o conteúdo do ebook, devolvemos seu dinheiro <strong>sem perguntas</strong>. Você não tem nada a perder!
+        </p>
 
-- [topics/](https://github.com/github/explore/tree/main/topics)
-- [collections/](https://github.com/github/explore/tree/main/collections)
+        <!-- Seção 7: FAQ -->
+        <div class="faq">
+            <h2>Perguntas Frequentes</h2>
+            <h3>Para quem é este ebook?</h3>
+            <p>Este ebook é perfeito para empreendedores, influenciadores e profissionais que querem usar o Instagram para gerar vendas e engajamento.</p>
 
-The topic or collection name should match its URL, e.g. `https://github.com/topics/rails` corresponds to the [`topics/rails` directory](https://github.com/github/explore/tree/main/topics/rails).
+            <h3>Preciso ter muitos seguidores para aplicar as estratégias?</h3>
+            <p>Não! As técnicas ensinadas funcionam mesmo para quem está começando do zero.</p>
 
-To make an improvement, please **open a pull request** with your proposed changes. 
+            <h3>Como recebo o ebook?</h3>
+            <p>Após a compra, você receberá um link para baixar o ebook imediatamente em formato PDF.</p>
+        </div>
 
-### Update the image
+        <!-- Call to Action Final -->
+        <a href="#comprar" class="cta-button">Sim, Quero Bombar Meu Instagram Agora!</a>
+    </div>
 
-To update the image, simply replace the image inside the directory for the topic or collection.
+    <!-- Script para o Contador de Tempo -->
+    <script>
+        function startTimer(duration, display) {
+            let timer = duration, minutes, seconds;
+            setInterval(function () {
+                minutes = parseInt(timer / 60, 10);
+                seconds = parseInt(timer % 60, 10);
 
-### Update text and links
+                minutes = minutes < 10 ? "0" + minutes : minutes;
+                seconds = seconds < 10 ? "0" + seconds : seconds;
 
-To update text and links, edit the `index.md` inside the topic or collection's directory. These files are formatted using a combination of [Front Matter](https://jekyllrb.com/docs/frontmatter/) and simple body content.
+                display.textContent = minutes + ":" + seconds;
 
-For **topics**, you'll notice that, in examples like the topic "[algorithm](https://raw.githubusercontent.com/github/explore/main/topics/algorithm/index.md)," data like its canonical URL, Wikipedia URL, or display name are called out in key-value pairs, while its detailed description is accounted for in the body of the document.
+                if (--timer < 0) {
+                    timer = duration;
+                }
+            }, 1000);
+        }
 
-_/topics/algorithm/index.md_:
-
-```markdown
----
-aliases: algorithms
-display_name: Algorithm
-short_description: Algorithms are self-contained sequences that carry out a variety of tasks.
-topic: algorithm
-wikipedia_url: https://en.wikipedia.org/wiki/Algorithm
----
-Algorithms are detailed sets of guidelines created for a computer program to complete tasks efficiently and thoroughly.
-```
-
----
-
-Similarly, **collections** like "[music](https://raw.githubusercontent.com/github/explore/main/collections/music/index.md)" call out things like their author and display name in Front Matter variables -- with a detailed description in the body of the document. Most importantly, though, collections identify their individual collection items in [a YAML list](https://en.wikipedia.org/wiki/YAML#Basic_components) for the key "items."
-
-_/collections/music/index.md_:
-
-```markdown
----
-items:
- - beetbox/beets
- - scottschiller/SoundManager2
- - CreateJS/SoundJS
- - musescore/MuseScore
- - tomahawk-player/tomahawk
- - cashmusic/platform
- - mopidy/mopidy
- - AudioKit/AudioKit
- - Soundnode/soundnode-app
- - gillesdemey/Cumulus
- - metabrainz/picard
- - overtone/overtone
- - samaaron/sonic-pi
-display_name: Music
-created_by: jonrohan
----
-Drop the code bass with these musically themed repositories.
-```
-
----
-
-The [pull request template](./.github/PULL_REQUEST_TEMPLATE.md) also provides guidance on the information you need to include.
-
-**Please fill out the pull request template completely,** if you do not fill out the template, your PR will be closed.
-
-## Curating a new topic or collection
-
-If a topic or collection is not yet curated, it will NOT be listed in its respective directory.
-
-We are likely to consider suggestions to curate a topic or collection that is valuable to GitHub's community. Valuable topics, for example, include those that are already [widely used by repositories](https://help.github.com/articles/classifying-your-repository-with-topics/) and could benefit from the addition of important information. When suggesting content, please consider how to make your contribution broadly useful and relevant to others, rather than serving a specific use case.
-
-Please note that all suggestions must adhere to GitHub's [Community Guidelines](https://help.github.com/articles/github-community-guidelines/) and [Terms of Service](https://help.github.com/articles/github-terms-of-service/). Per our Terms of Service, [you are responsible](https://help.github.com/articles/github-terms-of-service/#d-user-generated-content) for the content you contribute, and you must have the rights to use it.
-
-To propose a new topic or collection, please **open a pull request** with your proposed additions. The [API docs](./docs/API.md) and [style guide](./docs/styleguide.md) provide guidance on the information you need to include and how it should be formatted.
-
-This repository includes [a list of the most-used GitHub topics that don't yet have extra context](topics-todo.md). If your pull request adds one of these topics, please update topics-todo.md so that the topic is checked (marked complete).
-
-**Please fill out the pull request template completely.** If you do not fill out the template, your pull request will be closed.
-
-## Guidelines
-
-- Avoid conflicts of interest. These should be of general community interest, not a marketing vehicle for a product or a personal project. If you are a direct employee of a company creating the project, or the creator and sole maintainer, it's unlikely to be accepted.
-- We love experimenting with new technologies, and we are especially fond of GitHub Copilot. But as with all new technology, many of us are still getting accustomed to using generative AI tools effectively. Here are important guidelines to follow when using generative AI to contribute to this repository (adapted from the [GitHub Community Discussions CoC](https://github.com/community/community/blob/main/CODE_OF_CONDUCT.md#reasonable-use-of-ai-generated-content)):
-  - Read and revise the content before you post it. Use your own authentic voice and edit.
-  - Do not post AI-generated content verbatim to pad out the size and number of your contributions. Your changes should materially improve the site, not just say the same thing in different words.
-  - AI tools will often provide completely inaccurate or invented answers to prompts. Verify with an independent source that the information is correct before including it.
-
-## Running tests
-
-There are some lint tests in place to ensure each topic is formatted in the way we expect. GitHub
-Actions will run the tests automatically. If you want to run the tests yourself locally, you will
-need Ruby and Bundler installed.
-
-You can run the tests using:
-
-```bash
-bundle install
-bundle exec rubocop
-```
+        window.onload = function () {
+            const tenMinutes = 60 * 10;
+            const display = document.querySelector('#timer');
+            startTimer(tenMinutes, display);
+        };
+    </script>
+</body>
+</html>
